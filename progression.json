@@ -1,0 +1,37 @@
+{
+	"molten-core": {
+		"name":"Molten Core",
+		"boss-kills":10,
+		"boss-total":10
+	},
+	"onyxia": {
+		"name":"Onyxia's Lair",
+		"boss-kills":1,
+		"boss-total":1
+	},
+	"blackwing-lair": {
+		"name":"Blackwing Lair",
+		"boss-kills":0,
+		"boss-total":8
+	},
+	"zul-gurub": {
+		"name":"Zul'Gurub",
+		"boss-kills":0,
+		"boss-total":9
+	},
+	"aq20": {
+		"name":"Ruins of Ahn'Qiraj",
+		"boss-kills":0,
+		"boss-total":6
+	},
+	"aq40": {
+		"name":"Temple of Ahn'Qiraj",
+		"boss-kills":0,
+		"boss-total":9
+	},
+	"naxxramas": {
+		"name":"Naxxramas",
+		"boss-kills":0,
+		"boss-total":15
+	}
+}

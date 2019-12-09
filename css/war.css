@@ -1,0 +1,354 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+
+html, p, a, li, ul{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+}
+
+a:hover {
+	color: #fd5d0b !important;
+}
+
+header {
+  padding: 6em 0 3em;
+}
+
+section {
+  padding: 0.5em 0;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Cinzel', cursive;
+	color: #E02B31;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+}
+
+footer {
+
+}
+
+.carousel-bottom {
+	color: #E02B31;
+	position: absolute;
+	bottom: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-family: 'Montserrat', sans-serif !important;
+ 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 1px #000, 1px 1px 2px #000, 1px 1px 3px #000, 1px 1px 4px #000, 1px 1px 5px #000;
+	font-size: 1.75em;
+	font-weight: 700;
+}
+
+.carousel-top {
+	position: absolute;
+	top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+}
+
+.carousel-top h1 {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 5px #000, 1px 1px 0 #000, 0px 0px 5px #000;	
+}
+
+.carousel-item {
+	font-family: 'Cinzel', serif;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: auto 100%;
+	max-height: 700px;
+	height: calc(70vh - 37px);
+	text-align: center;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.carousel-indicators li {
+	height: 1vh;
+	width: 10vw;
+}
+
+.carousel-link {
+	color: #fd5d0b;
+ 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 0px 15px #000, 1px 1px 0 #000, 0px 0px 5px #000, 1px 1px 0 #000, 0px 0px 5px #000;
+}
+
+.carousel-link:hover, .carousel-link:visited, .carousel-link:active {
+	text-decoration: none;
+}
+
+#carousel-1 {
+	background-image: url("../img/war-splash.png");
+}
+
+#carousel-2 {
+	background-image: url("../img/azuregos-kill.png");
+}
+
+#carousel-3 {
+	background-image: url("../img/kazzak-kill.png");
+}
+
+#carousel-4 {
+	background-image: url("../img/recruitment-splash.png");
+}
+
+#carousel-indicators {
+	margin-top: 30px;
+	background-color: #000000;
+	max-height: 700px;
+	height: calc(70vh - 37px);
+	box-shadow: 0px 10px 55px #000;
+	text-shadow: 0px 0px 15px #000, 0px 0px 10px #000, 0px 0px 5px #000, 0px 0px 3px #000 !important;
+	color: rgba(0, 0, 0, 0.66);
+	background-image: url("../img/war-splash-bg.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: right 0px top 50%;
+	background-size: auto 125%;
+	box-shadow: 0px 0px 10px 1px #000;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+.druid-color { 
+	color: #FF7D0A
+}
+.hunter-color { 
+	color: #ABD473
+}
+.mage-color { 
+	color: #69CCF0
+}
+.priest-color { 
+	color: #FFFFFF
+}
+.rogue-color { 
+	color: #FFF569
+}
+.shaman-color { 
+	color: #0070DE
+}
+.warlock-color { 
+	color: #9482C9
+}
+.warrior-color { 
+	color: #C79C6E
+}
+
+.recruitment-string {
+	font-size: 1.1em;
+}
+
+.class-name {
+	font-size: 1.1em;
+	font-family: 'Cinzel', serif;
+	font-weight: 700;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+}
+
+.class-icon {
+	max-height: 1.75rem; !important;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+.spec-icon {
+	height: 1.5em;
+}
+
+.progression-bar {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+	max-width: calc(100%);
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, .66);
+	border: 2px solid rgba(0, 0, 0, 0.66);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0.75em;
+}
+
+.progression-bar:nth-child(even) {
+	background-position: left top;
+}
+
+.progression-bar:nth-child(odd) {
+	background-position: right top;
+}
+
+.progression-bar span {
+	font-size: 1.6em;
+}
+
+.progression-heading {
+	margin-top: 40px;
+}
+
+#molten-core-progression {
+	background-image: url("../img/molten-core-1.png");
+}
+#onyxia-progression {
+	background-image: url("../img/onyxia.png");
+}
+#blackwing-lair-progression {
+	background-image: url("../img/blackwing-lair.png");
+}
+#zul-gurub-progression {
+	background-image: url("../img/zul-gurub.png");
+}
+#aq20-progression {
+	background-image: url("../img/aq20.png");
+}
+#aq40-progression {
+	background-image: url("../img/aq40.png");
+}
+#naxxramas-progression {
+	background-image: url("../img/naxxramas.png");
+}
+
+
+.bg-light {
+	background-color: #CFE5EE!important;
+	background-image: url("../img/war-bg.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: auto auto;
+
+}
+
+.bg-dark {
+	background-color: #220601!important;
+	box-shadow: 0px 0px 25px #000;
+	border: 1px solid #000;	
+}
+
+.navbar {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.navbar-brand {
+	font-weight: 600;	
+	font-family: 'Cinzel', cursive;
+	color: #E02B31!important;
+  	font-variant: normal;
+}
+
+.navbar-dark, .nav-link {
+	color: #E02B31!important;
+  	font-variant: small-caps;
+}
+
+.info-pane {
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
+	padding: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	background: rgba(0,0,0, .66);
+	color: #fff;
+	box-shadow: 0px 0px 15px #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.footer-icon {
+	height: 30px;
+	margin-right: 5px;
+}
+
+.footer-link {
+	color: #E02B31!important;
+	padding: 1em;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
+
+#mainNav {
+	box-shadow: 0px 0px 10px 1px #000;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000;
+	background-color: #220601!important;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+}
+
+#splash {
+	background-image: url("../img/war-splash-bg.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: right 0px top 50%;
+	background-size: auto 125%;
+	box-shadow: 0px 0px 10px 1px #000;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+#splash_logo {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+#about {
+	box-shadow: 0px 0px 25px #000;
+	border-top-style:solid;
+	border-width: 1px;
+}
+
+#footer-section {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+	text-shadow: 0px 0px 5px #000, 0px 0px 3px #000;
+}
+
+@media (max-width: 900px) {
+	#splash {
+		background-size: 150%;
+		background-position: right 0px top 0%;
+	}
+
+	.progression-bar {
+		background-size: auto 100%;
+	}	
+
+	.progression-bar span {
+		font-size: 5.5vw;
+	}	
+}

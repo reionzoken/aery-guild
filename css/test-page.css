@@ -1,0 +1,17 @@
+a {
+		color: #ABE7FF!important;
+  	font-variant: small-caps;
+  	font-size: 1.1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#about {
+	height: 100vh;
+}
+
+html {
+	background-color: black;
+}
