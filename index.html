@@ -153,7 +153,7 @@
       <div class="row">
         <div class="col-lg-12 info-pane mx-auto">
           <h2>Join Us</h2>
-          <p class="lead">If you're interested in joining Aery, please contact our leadership for more information:</p>
+          <p class="lead">If you're interested in joining Aery, please <a href='https://docs.google.com/forms/d/1ohe6LgeQ95whTJ37lwBr78iFkiN8X88Op-IbpPyfPo0/edit'>fill out an application</a>. If you'd like to speak to our leadership for more information, feel free to contact us:</p>
           <ul>
             <li>GM — Phix#9221 on Discord</li>
             <li>Co-GM — Hype#1796 on Discord</li>
